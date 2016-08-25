@@ -1,0 +1,11 @@
+Class Test{
+  public void disp(){
+  System.out.println("hello world");
+    }
+  }
+  
+  Class TestApp{
+    public static void main(String[] args){
+      Test t = new Test();
+      t.disp();
+      }
